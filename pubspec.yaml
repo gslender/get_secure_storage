@@ -1,17 +1,17 @@
 name: get_secure_storage
 description: A secure version of get_storage, which was a fast, extra light and synchronous key-value storage written entirely in Dart
-version: 1.0.4
+version: 1.0.5
 homepage: https://github.com/gslender/get_secure_storage
 
 environment:
-  sdk: ">=2.16.0 <4.0.0"
+  sdk: ">=3.3.3 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
   get: ">=4.0.0 <6.0.0"
-  path_provider: ^2.0.1
-  cryptography: ^2.5.0
+  path_provider: ^2.1.2
+  cryptography: ^2.7.0
 
 dev_dependencies:
   flutter_lints: ^2.0.1

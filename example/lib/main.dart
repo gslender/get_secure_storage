@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get_secure_storage/get_secure_storage.dart';
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   await GetSecureStorage.init(password: 'strongpassword');
   runApp(const App());
 }

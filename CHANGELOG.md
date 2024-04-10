@@ -1,3 +1,6 @@
+## [1.0.5] 
+- Updated package to support Flutter 3.19.5
+
 ## [1.0.4] 
 - Add method to hasContainer
 

@@ -4,7 +4,7 @@ import 'dart:convert';
 import 'package:cryptography/cryptography.dart';
 import 'package:get/utils.dart';
 
-import 'sdk/flutter.dart' if (dart.library.ui) 'platform/dart.dart';
+import 'sdk/flutter.dart' if (dart.library.ui) 'sdk/dart.dart';
 import 'storage/html.dart' if (dart.library.io) 'storage/io.dart';
 import 'value.dart';
 
